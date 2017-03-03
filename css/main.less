@@ -1,0 +1,41 @@
+@Roboto: 'Roboto', sans-serif;
+@Kaushan: 'Kaushan Script', cursive;
+@Mont : 'Montserrat', sans-serif;
+
+@white: #fff;
+@yellow: #fce38a;
+
+.first {
+	background-image: url('../img/bg_first.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	position: absolute; 
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	header {
+		margin-top: 25px;
+		ul {
+			float: right;
+			li {
+				padding: 0 25px;
+				a {
+					font-family: @Mont;
+					font-size: 14px;
+					text-decoration: none;
+					color: @white;
+					text-transform: uppercase;
+					padding-bottom: 7px;
+
+					&:hover {
+						color: @yellow;
+						border-bottom: 2px solid @yellow;
+					}
+				}
+			}
+		}
+	}
+}
